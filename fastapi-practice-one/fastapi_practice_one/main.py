@@ -7,4 +7,7 @@ def index():
 @app.get("/home")
 def ahmad():
    return {"Hello,where have you been so far?"}
+@app.get("/about")
+def ahmad():
+   return {"Hello,where have you been so far? tell me something about You!!!"}
 
