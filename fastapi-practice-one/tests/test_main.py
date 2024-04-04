@@ -28,3 +28,8 @@ def test_khanThird_root():
     response = client.get("/about/")
     assert response.status_code == 200
     assert response.json() == {"message": ", where have you been so far? Tell me something You!!!"}
+def test_khanFourth_root():
+    client = TestClient(app)
+    response = client.get("/about/")
+    assert response.status_code == 200
+    assert response.json() == {"message": ", where you been so far? Tell me something You!!!"}
