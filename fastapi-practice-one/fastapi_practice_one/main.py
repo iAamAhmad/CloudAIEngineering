@@ -13,3 +13,6 @@ def ahmad():
 @app.get("/about/")
 def khan():
     return {"message": "Hello, where have you been so far? Tell me something about You!!!"}
+@app.get("/about/")
+def khan2():
+    return {"message": "Hello, where have you been so far? Tell me something about You!!!"}
